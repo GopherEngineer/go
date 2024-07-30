@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS comments;
+
+CREATE TABLE comments (
+	id SERIAL PRIMARY KEY,
+	post INTEGER NOT NULL,
+	parent INTEGER,
+	message TEXT NOT NULL,
+	created_at INTEGER DEFAULT 0
+);

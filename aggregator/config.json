@@ -1,0 +1,8 @@
+{
+    "rss": [
+        "https://www.vedomosti.ru/rss/rubric/technology/it_business.xml",
+        "https://habr.com/ru/rss/hubs/go/articles/?fl=ru",
+        "https://habr.com/ru/rss/hubs/space/articles/?fl=ru"
+    ],
+    "period": 5
+}

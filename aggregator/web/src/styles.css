@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body,
+#root {
+	min-height: 100%;
+}
+
+body {
+	background-color: #328818;
+}
