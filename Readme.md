@@ -90,7 +90,7 @@ Transfer-Encoding: chunked
 `GET /news?page=1`
 
 ```sh
-curl -i -H 'Accept: application/json' http://localhost:8080/news?page=1
+curl -i -H 'Accept: application/json' "http://localhost:8080/news?page=1"
 ```
 
 ### Ответ
@@ -127,7 +127,7 @@ Transfer-Encoding: chunked
 `GET /news?s=Заголовок`
 
 ```sh
-curl -i -H 'Accept: application/json' http://localhost:8080/news?s=Заголовок
+curl -i -H 'Accept: application/json' "http://localhost:8080/news?s=Заголовок"
 ```
 
 ### Ответ
